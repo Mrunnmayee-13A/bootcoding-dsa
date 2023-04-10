@@ -10,10 +10,10 @@ public class CopyOddElementRev {
             }
         }
         int[] output = new int[count];
-        int index = output.length - 1;
+        int index = output.length;
         for (int i = 0; i < input.length; i++) {
             if (input[i] % 2 != 0) {
-                output[index--] = input[i];
+                output[index++] = input[i];
             }
         }
         System.out.println("Old Array is");
@@ -21,12 +21,14 @@ public class CopyOddElementRev {
             System.out.print(input[i] + " ");
         }
         System.out.println("\nNew Array after reverse is");
-        /*  for (int i = 0; i < output.length / 2; i++) {
+        for (int i = 0; i < output.length / 2; i++) {
             int temp = output[i];
             output[i] = output[output.length - i - 1];
-            output[output.length - i - 1] = temp;*/
-        for (int i = 0; i < output.length; i++) {
-            System.out.print(output[i] + " ");
+            output[output.length - i - 1] = temp;
+            for (i = 0; i < output.length; i++) {
+                System.out.print(output[i] + " ");
+            }
         }
     }
 }
+
