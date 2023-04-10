@@ -2,7 +2,7 @@ package com.bootcoding.dsa.array;
 
 public class CopyOddElementRev {
     public static void main(String[] args) {
-        int input[] = {3, 45, 56, 76, 79, 57};
+        int[] input = {3, 45, 56, 76, 79, 57};
         int count = 0;
 
         for (int i = 0; i < input.length; i++) {
@@ -21,7 +21,7 @@ public class CopyOddElementRev {
             System.out.print(input[i] + " ");
         }
         System.out.println("\nNew Array after reverse is");
-      /*  for (int i = 0; i < output.length / 2; i++) {
+        /*  for (int i = 0; i < output.length / 2; i++) {
             int temp = output[i];
             output[i] = output[output.length - i - 1];
             output[output.length - i - 1] = temp;*/
