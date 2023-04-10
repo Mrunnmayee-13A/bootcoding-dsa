@@ -5,7 +5,7 @@ public class ElementsGreaterThanAvg {
         int count =0;
         float avg=0;
         int sum=0;
-        int input [] = {45,3,6,5,23};
+        int[] input = {45,3,6,5,23};
           for(int i=0; i<input.length; i++){
               count++;
           }
