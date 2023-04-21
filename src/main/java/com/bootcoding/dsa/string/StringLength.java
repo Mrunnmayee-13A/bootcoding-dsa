@@ -2,6 +2,7 @@ package com.bootcoding.dsa.string;
 
 public class StringLength {
     public static void main(String[] args) {
+
         String s ="Haldiram";
         int len = s.length();
         String s2 =" Haldiram!";
