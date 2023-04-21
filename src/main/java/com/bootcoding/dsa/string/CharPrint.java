@@ -2,6 +2,7 @@ package com.bootcoding.dsa.string;
 
 public class CharPrint {
     public static void main(String[] args) {
+
         String str = "Programming";
         int len = str.length();
         char ch = str.charAt(len/2);
