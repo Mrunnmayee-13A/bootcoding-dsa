@@ -5,6 +5,7 @@ public class LowerUpperCase {
         String s1= "DIWALI";
         String  s2= "diwali";
         boolean res = s1.equals(s2);
+
         String s3 = s1.toLowerCase();
         String s4 =s2.toUpperCase();
         System.out.println(s1);
