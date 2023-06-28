@@ -29,10 +29,10 @@ public class RecordApp {
         records.add(record);
         records.add(record);
 
-        for (int i = 0; i < records.size(); i++) {
-            System.out.println("Name :" + records.get(i).getName());
-            System.out.println("isPursuing :" + records.get(i).isPursuing());
-            System.out.println("cgpa :" + records.get(i).getCgpa());
+        for (Record value : records) {
+            System.out.println("Name :" + value.getName());
+            System.out.println("isPursuing :" + value.isPursuing());
+            System.out.println("cgpa :" + value.getCgpa());
 
         }
     }
