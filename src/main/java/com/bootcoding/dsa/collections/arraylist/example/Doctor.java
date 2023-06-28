@@ -6,7 +6,6 @@ public class Doctor {
   private int age;
   private String  type;
 
-
     public String getName() {
         return name;
     }
