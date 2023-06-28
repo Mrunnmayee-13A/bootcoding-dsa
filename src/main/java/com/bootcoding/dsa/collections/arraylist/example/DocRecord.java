@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class DocRecord {
   public ArrayList<Doctor> getDoctor(int size) {
     ArrayList<Doctor>doctor = new ArrayList<>();
+
     for (int i =0; i<size; i++){
       Doctor doctors = buildDoctor();
       doctor.add(doctors);
@@ -26,7 +27,6 @@ public class DocRecord {
     int randomIndex = new Random().nextInt(n.length);
     return n[randomIndex];
   }
-
   public String getEducation(){
     String e[]= {"M.B.B.S", "B.D.S", "B.H.M.S", "Ayurvedic","Surgeon","M.D"};
     int randomIndex = new Random().nextInt(e.length);
