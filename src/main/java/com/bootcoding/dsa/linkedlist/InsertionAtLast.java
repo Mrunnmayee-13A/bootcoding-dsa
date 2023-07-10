@@ -22,7 +22,6 @@ public class InsertionAtLast {
         while (temp.next != null) {
             temp= temp.next;
         }
-
         temp.next = newNode;
         return head;
     }
