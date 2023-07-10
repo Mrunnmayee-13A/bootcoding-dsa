@@ -19,12 +19,8 @@ public class InsertionAtFirst {
         Node newNode = new Node(5) ;
         newNode.next = head;
         head= newNode;
-//        Node temp= head;
-//        head = newNode;
-//        newNode.next = temp;
 
         return head;
-
     }
 }
 
