@@ -30,6 +30,7 @@ public class RecordApp {
         records.add(record);
 
         for (Record value : records) {
+
             System.out.println("Name :" + value.getName());
             System.out.println("isPursuing :" + value.isPursuing());
             System.out.println("cgpa :" + value.getCgpa());
