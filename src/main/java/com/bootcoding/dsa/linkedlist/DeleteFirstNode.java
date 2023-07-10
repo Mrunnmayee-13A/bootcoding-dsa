@@ -18,7 +18,6 @@ public class DeleteFirstNode {
 
         Node newList = deletionOfFirstNode(head);
         Create.print(newList);
-
     }
     public static Node deletionOfFirstNode(Node head){
        Node temp= head;
