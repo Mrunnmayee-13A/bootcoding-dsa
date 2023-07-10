@@ -8,7 +8,6 @@ public class Record {
     public String getName() {
         return name;
     }
-
     public boolean isPursuing() {
         return pursuing;
     }
