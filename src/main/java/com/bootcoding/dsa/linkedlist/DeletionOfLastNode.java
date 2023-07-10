@@ -15,7 +15,6 @@ public class DeletionOfLastNode {
         //Node newList;
         deletionOfLastNode(head);
         Create.print(head);
-
     }
     public static void deletionOfLastNode(Node head){
         Node temp = head;
