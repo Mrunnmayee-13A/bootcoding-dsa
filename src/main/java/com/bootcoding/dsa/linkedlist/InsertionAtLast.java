@@ -15,6 +15,7 @@ public class InsertionAtLast {
         Node newList;
         newList = insertionAtLast(firstNode);
         Create.print(newList);
+
     }
     public static Node insertionAtLast(Node head) {
         Node newNode = new Node(5);
