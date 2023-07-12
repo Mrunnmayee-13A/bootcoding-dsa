@@ -14,8 +14,10 @@ public class InsertionAtFirst {
         fourthNode.next =null;
         Node newList = insertionAtFirst(head);
         Create.print(newList);
+
     }
     public static Node insertionAtFirst( Node head){
+
         Node newNode = new Node(5) ;
         newNode.next = head;
         head= newNode;
