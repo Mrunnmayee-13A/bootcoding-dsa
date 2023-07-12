@@ -12,7 +12,6 @@ public class DeletionOfLastNode {
         thirdNode.next = fourthNode;
         fourthNode.next = null;
 
-        //Node newList;
         deletionOfLastNode(head);
         Create.print(head);
     }
