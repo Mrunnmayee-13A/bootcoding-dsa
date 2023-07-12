@@ -8,7 +8,7 @@ public class ConcatenationOfArray {
             System.out.print(ans[i]+" ");
         }
     }
-      public static int[] getConcatenation(int[] numb) {
+    public static int[] getConcatenation(int[] numb) {
         int n = numb.length;
         int ans[] = new int[2 * n];
 
