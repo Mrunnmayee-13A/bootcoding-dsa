@@ -15,8 +15,6 @@ public class NodesDivisibility {
         fifthNode.next = null;
 
         checkDivisible(head);
-       // Create.print(newList);
-
     }
 
     public static void checkDivisible(Node head){
